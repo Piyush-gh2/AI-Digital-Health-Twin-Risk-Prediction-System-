@@ -1,0 +1,39 @@
+
+---
+
+# .gitignore
+
+```gitignore
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Streamlit config
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files
+*.pkl
+
+# Data files (optional)
+*.csv
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
